@@ -9,8 +9,8 @@ pub fn run() {
     // 生成一个1到100之间的随机数
     let secret_number = rand::rng().random_range(1..=100);
 
-    loop {
-        println!("Please input your guess and press Enter.");
+      loop {
+         println!("请输入一个数字🔢!");
 
         let mut guess = String::new();
         io::stdin()
@@ -22,7 +22,7 @@ pub fn run() {
             Err(_) => {
                 println!("Please type a number!");
                 continue;
-            },
+            }
         };
 
         println!("You guessed: {guess}");
