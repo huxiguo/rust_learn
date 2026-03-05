@@ -71,4 +71,36 @@ pub fn data_type() {
     println!("========== 字符串 str ==========");
     let string_value: &str = "Hello, world!";
     println!("string_value is {string_value}");
+
+    let char_value: char = 'ℤ';
+    println!("char_value is {char_value}");
+
+
+    println!("========== 复合数据类型 ==========");
+
+    println!("========== 元组 tuple ==========");
+
+    let tuple_value: (i32, f64, bool) = (1, 2.0, true);
+    println!("tuple_value is {:?}", tuple_value);
+
+    // 解构
+    let (x, y, z) = tuple_value;
+    println!("x is {x}, y is {y}, z is {z}");
+
+    // 访问元组中的元素
+    println!("the first element is {}", tuple_value.0);
+    println!("the second element is {}", tuple_value.1);
+    println!("the third element is {}", tuple_value.2);
+
+    // 数组
+    println!("========== 数组 array ==========");
+
+    let array_value: [i32; 3] = [1, 2, 3];
+    println!("array_value is {:?}", array_value);
+
+    // 访问数组中的元素
+    println!("the first element is {}", array_value[0]);
+    println!("the second element is {}", array_value[1]);
+    println!("the third element is {}", array_value[2]);
+    
 }
