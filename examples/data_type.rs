@@ -1,4 +1,4 @@
-pub fn data_type() {
+fn main() {
     // 整型
     println!("========== 有符号 i8, i16, i32, i64, i128, isize ==========");
     let max_i8: i8 = 127;
@@ -75,7 +75,6 @@ pub fn data_type() {
     let char_value: char = 'ℤ';
     println!("char_value is {char_value}");
 
-
     println!("========== 复合数据类型 ==========");
 
     println!("========== 元组 tuple ==========");
@@ -102,5 +101,4 @@ pub fn data_type() {
     println!("the first element is {}", array_value[0]);
     println!("the second element is {}", array_value[1]);
     println!("the third element is {}", array_value[2]);
-    
 }

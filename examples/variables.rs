@@ -1,7 +1,7 @@
 /**
  * 变量和可变形
  */
-pub fn variables() {
+fn main() {
     // 不可变变量
     let x = 5;
     println!("x is {x}");

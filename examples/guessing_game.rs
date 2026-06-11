@@ -4,13 +4,13 @@ use std::io;
 /**
  * 猜数字游戏
  */
-pub fn run() {
+fn main() {
     println!("Guess the number!");
     // 生成一个1到100之间的随机数
     let secret_number = rand::rng().random_range(1..=100);
 
-      loop {
-         println!("请输入一个数字🔢!");
+    loop {
+        println!("请输入一个数字🔢!");
 
         let mut guess = String::new();
         io::stdin()
