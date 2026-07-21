@@ -101,4 +101,6 @@ fn main() {
     println!("the first element is {}", array_value[0]);
     println!("the second element is {}", array_value[1]);
     println!("the third element is {}", array_value[2]);
+
+    return;
 }

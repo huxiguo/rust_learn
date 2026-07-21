@@ -3,11 +3,11 @@
  */
 fn main() {
     // 不可变变量
+    println!("不可变变量:");
     let x = 5;
     println!("x is {x}");
     // 会报错，因为x是不可变变量
     // x = 6;
-    // println!("x is {x}");
 
     // 可变变量
     // 使用mut关键字声明可变变量
